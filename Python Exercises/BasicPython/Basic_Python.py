@@ -1,61 +1,55 @@
-print("Hello, Python")
-print("Hello World, I am here to learn Python")
+print("Hello Python")
 
-name = "RuZ17"
-print("Hello," +name+ "!")
+name = "Mahfuj"
+print("Hello " + name + ", " "welcome" )
 
-# This is a single-line comment
-print("This will run.")
+print("My name is Mahfuj")
+print("""I am very much excited to learn Python, 
+it looks interesting and fun so far.
+This is really easy to learn""")
 
-"""
-This is a multi-line comment
-It can span multiple lines
-"""
-print("""This will also run,
-Then another line have to run.""")
-
-print("""This is my first script of Python,
-And i am very much excited to see the result,
-because it feels very interesting.""")
-
+print(3 + 2)
+print(9999 - 6666)
+print(9999 / 3333)
+print(3333 * 3)
 print(2 ** 3)
 
-print( 256 + 562)
-
-print(1111 - 2222)
-
-print(9999 / 3333)
-
 length = 9
-width = 9
-area=length*width
-
+width = 5
+area = length * width
 print(area)
 
-name="Ruzel"
-age=38
-hobby="Reading"
+print("Name: Mahfuj Ruzel")
+print("Age: 38")
+print("Hobby: Play Cricket")
 
-print(" Hello Everyone, My name is " + name + ". i am " + str(age) + " years old. " " My hobby is " + hobby + " books ")
-
-name = input("Ruzel:")
-print("Hello, " + name + "!")
-
-# Addition
-print("3 + 5 =", 3 + 5)
-
-# Subtraction
-print("10 - 2 =", 10 - 2)
-
-# Multiplication
-print("4 * 7 =", 4 * 7)
-
-# Division
-print("15 / 3 =", 15 / 3)
-
-# Exponentiation
-print("2 ** 3 =", 2 ** 3)
-
+name = ("Mahfuj Ruzel")
+print("Hello, " + name + " ! ")
 
 for i in range(1, 6):
     print(i * 3)
+
+for i in range(1, 7):
+    print(i * 4)
+
+for i in range(1, 9):
+    print(i * 2)
+
+print("3 + 5 =", 3 + 5 )
+print("5 - 3 =", 5 - 3)
+print("10 / 5=", 10 / 5)
+print("3 * 2 =", 3 * 2)
+print("3 ** 2=", 3 ** 2)
+
+print("333 + 333=", 333 + 333)
+print("10 / 3=", 10 / 3)
+
+age = 38
+current_year = int(input("Enter Current Year: "))
+birth_year = current_year - age
+print("My Birth Year is: ", birth_year)
+
+age = int(input("Enter your current age: "))
+current_year = int(input("Enter current year: "))
+birth_year = current_year - age
+print("Your Birth Year is:", birth_year)
